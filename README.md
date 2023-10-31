@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/suvOPLH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Created a Resource Group(RG-osTicket), and then created a Virtual Machine(vm-osticket) inside of the Azure environment.
+Created a Resource Group(RG-osTicket), as well as a Windows 10 VM with 4 virtual CPUs. I then located VM-1's public IP address, where I copied it and opened the Remote Desktop application to login to vm.
 </p>
 <br />
 
@@ -36,7 +36,7 @@ Created a Resource Group(RG-osTicket), and then created a Virtual Machine(vm-ost
 <img src="https://i.imgur.com/mGSgR9g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Pre-installation, I enabled IIS in Windows with CGI and common HTTP features. Then I installed PHP Manager for IIS and Rewrite Module. I created the directory C:\PHP, as well as MySql. Finished with Install of osTicket.
 </p>
 <br />
 
@@ -44,6 +44,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/OqwqUF8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Loaded osTicket and verified a successful login.
 </p>
 <br />
